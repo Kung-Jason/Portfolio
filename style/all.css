@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgba(221, 209, 194, 1);
+
+}
+
+.init {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+.desc {
+    /* background-color: #fff;
+    height: 265px;
+    width: 426px; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc h1 {
+    text-transform: uppercase;
+}
+
+.desc h2 {
+    color: rgba(149, 133, 115, 0.5);
+}
