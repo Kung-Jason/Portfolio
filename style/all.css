@@ -34,3 +34,25 @@ ul{
     list-style-type: none;
     text-decoration: none;
 }
+@media screen and (max-width:1367px) {
+	/* .box{
+		background-color: green;
+		color: rgb(0, 255, 0);
+	} */
+}
+
+@media screen and (max-width:1024px){
+	/* .box{
+		background-color: pink;
+		color: red;
+		text-align: right;
+	}  */
+	
+}
+@media screen and (max-width:376px) {
+	/* .box{
+		text-align: center;
+		background-color: blue;
+		color: aliceblue;
+	} */
+}
