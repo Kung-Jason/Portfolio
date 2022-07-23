@@ -1,3 +1,3 @@
 $('.init').click(function () { 
-        $('.init').find('.desc').
+        // $('.init').find('.desc').
 });
