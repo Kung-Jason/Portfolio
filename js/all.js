@@ -1,24 +1,33 @@
-let $opacity = .1;
+let index =0 ;
 $(document).ready(function () {
         // $('.desc').find('h1').fadeIn('slow');
         console.log(0);
         // $('.init').css(display, flex);
         $('.desc').fadeIn(3000);
-        $('h2').fadeIn(FadeIn);
-       
-      
-       
-       
+        console.log($opacity);
+    
 });
+$('a .init').hover(function () {
+                // over
+                $('h2').css('opacity', opacity);
+                console.log(index);
+        }, function () {
+                // out
+                console.log(index);
+        }
+);
+function opacity() {
+        FadeIn()/10;
+  }
 function FadeIn() {
-        if ($opacity != 1) {
-                $opacity += 0.1;
-                $('h2').css('opacity', $opacity);
-                console.log($opacity);
+        if (index < 11) {
+                index ++;
+                // $('h2').css('opacity', index);
+                console.log(index);
         } else {
-                $opacity = 1;
-                $('h2').css('opacity', $opacity);
-                console.log($opacity);
+                index = 0;
+                // $('h2').css('opacity', index);
+                console.log(index);
         }
   }
 // function fadeIn() {
