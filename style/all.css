@@ -48,7 +48,7 @@ z-index: 1;
    border-radius: 10px;
    /* border-bottom: 2px solid black; */
 }
-.menu a li::after{
+/* .menu li::after{
     display: inline-block;
     content: '';
     width: 0;
@@ -59,15 +59,28 @@ z-index: 1;
     bottom: -5px;
     border-bottom: 4px solid rgba(39,37,34,0.6);
     transform: .3s;
-}
-.menu a li:hover::after{
+} */
+.menu li:hover{
     background-color: rgba(75,67,58,0.6);
     color: white;
     right: 0;
     left: 0;
-
+    border-bottom: 4px solid rgba(39,37,34,0.6);
 }
-
+.menu a:hover::after{
+    transform: scaleX(1);
+}
+.menu a::after{
+    border-bottom: 1px solid #000;
+}
+.menu a::after{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform .3s;
+}
 
 .content {
     /* background-color: rgb(234, 101, 101); */
