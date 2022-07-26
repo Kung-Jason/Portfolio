@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/* 第一頁 首頁 Protfolio */
+
+
+.select {
+    position: absolute;
+    /* background-color: #fff; */
+    width: 100vw;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    margin: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5em;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.select li {
+    width: 500px;
+    margin-bottom: 15px;
+    border: solid 2px #000;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100px;
+
+
+}
+
+.select li:first-child {
+    margin-top: 15%;
+}
+
+
+/*        RWD模組化             */
+@media screen and (max-width:1367px) {
+    /* .box{
+		background-color: green;
+		color: rgb(0, 255, 0);
+	} */
+}
+
+@media screen and (max-width:1024px) {
+    /* .box{
+		background-color: pink;
+		color: red;
+		text-align: right;
+	}  */
+
+}
+
+@media screen and (max-width:376px) {
+    /* .box{
+		text-align: center;
+		background-color: blue;
+		color: aliceblue;
+	} */
+}

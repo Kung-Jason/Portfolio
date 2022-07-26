@@ -8,9 +8,8 @@ html {
 
 body {
     background-color: rgba(221, 209, 194, 1);
-    padding: 0;
-    position: relative;
-    margin: 0;
+  
+
 }
 
 ul {
@@ -18,43 +17,52 @@ ul {
     list-style: none;
     font-size: 20px;
 }
-
+a {
+    text-decoration: none;
+}
 .menu {
-    position: relative;
-    margin: 0;
+    position:fixed;
+    /* margin: 0;
+    padding: 0; */
     top: 0;
     left: 0;
     width: 100%;
     height: 50px;
     background-color: rgba(149, 133, 115, .6);
-
+z-index: 1;
 }
 
 .menu ul {
     justify-content: right;
     display: flex;
+    
 }
 
 .menu li {
-    color: blanchedalmond;
+   
+    color:black;
     margin-right: 10px;
-    border: solid 3px #000;
+    /* border: solid 3px #000; */
     line-height: 50px;
+   
+}
+.menu ul li:hover{
+    background-color: rgba(75,67,58,0.6);
+    color: white;
+    border-bottom: rgba(39,37,34,0.6);
+z-index: 3;
 }
 
-a {
-    text-decoration: none;
-}
 
 .content {
     /* background-color: rgb(234, 101, 101); */
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     position: absolute;
     margin: auto;
-    /* justify-content: center;
-    align-items: center; */
-    top: 50px;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* 封面  index  */
@@ -94,33 +102,6 @@ a {
 
 .desc h2 {
     color: rgba(149, 133, 115, 0.5);
-}
-
-/* 第一頁 首頁 Protfolio */
-.select {
-    position: absolute;
-    background-color: #fff;
-    width: 300px;
-    height: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: inline-block;
-    margin: auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-    text-align: center;
-    font-size: 30px;
-    line-height: 1.5em;
-
-}
-
-.select li {
-    margin-bottom: 15px;
-    border: solid 2px #000;
-    border-radius: 15px;
-
 }
 
 
