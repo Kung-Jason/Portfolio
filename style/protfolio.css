@@ -1,9 +1,21 @@
 @charset "UTF-8";
+/* menu */
+.menu a:first-child:after {
+    content: '';
+    position: absolute;
+    right: 0%;
+    left: 0%;
+    bottom: 0px;
+    border-bottom: 4px solid #000;
+  
+
+}
 
 /* 第一頁 首頁 Protfolio */
 
 
 .select {
+    
     position: absolute;
     /* background-color: #fff; */
     width: 100vw;
@@ -24,8 +36,13 @@
     vertical-align: middle;
 
 }
-
-.select li {
+.select a{
+    box-sizing: border-box;
+    width: 500px;
+    
+}
+.select li{
+    box-sizing: border-box;
     width: 500px;
     margin-bottom: 15px;
     border: solid 2px #000;
@@ -37,8 +54,8 @@
 
 }
 
-.select li:first-child {
-    margin-top: 80px;
+.select:first-child {
+    margin-top: 10%;
 }
 
 
