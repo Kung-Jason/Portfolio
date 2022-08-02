@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* menu */
-.menu a:first-child:after {
+.menu a:nth-child(2):after {
     content: '';
     position: absolute;
     right: 0%;
